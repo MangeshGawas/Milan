@@ -173,6 +173,7 @@ textarea::placeholder {
 }
 
 .toggle-button {
+  position: relative;
   border: none;
   background: none;
   outline: none;
@@ -180,6 +181,7 @@ textarea::placeholder {
   float: right;
   margin-top: -3.25rem;
   margin-right: 0.9rem;
+  z-index: 9;
 }
 
 @media screen and (max-width: 1000px) {
